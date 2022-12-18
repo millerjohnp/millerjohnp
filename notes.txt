@@ -1,0 +1,4 @@
+Jemdoc code, instructions, and pointers can be found here: http://jemdoc.jaboc.net/index.html
+
+To compile the repository, run
+python2.7 jemdoc.py -c mysite.conf index.jemdoc

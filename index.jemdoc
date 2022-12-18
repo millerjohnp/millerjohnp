@@ -1,0 +1,83 @@
+# jemdoc: menu{MENU}{index.html}
+= John Miller
+
+~~~
+{}{img_left}{picture.PNG}{John Miller}{275}{275}{}
+John Miller \n
+[https://eecs.berkeley.edu Department of Electrical Engineering and Computer Sciences] \n
+[http://www.berkeley.edu University of California, Berkeley] \n
++miller_john@berkeley.edu+ \n
+[https://github.com/millerjohnp Github] / [https://scholar.google.com/citations?user=vCHNxFcAAAAJ&hl=en Google Scholar] 
+~~~
+
+== About Me
+I obtained my PhD in Electrical Engineering and Computer
+Sciences from UC Berkeley in August 2022.
+I was advised by [https://mrtz.org Moritz Hardt] and
+[https://people.eecs.berkeley.edu/~brecht/ Ben Recht]. 
+Throughout my PhD, I was generously supported by the
+Berkeley Fellowship and the 
+[https://www.nsfgrfp.org NSF Graduate Research Fellowship].
+From 2016-2017, I was a research scientist in
+[http://research.baidu.com/silicon-valley-ai-lab/ Baidu's Silicon Valley AI
+Lab]. Before that, I received a BS in Computer Science and an MS in Electrical
+Engineering from Stanford University, where I had the privilege of working with
+[https://cs.stanford.edu/~pliang/ Percy Liang] and
+[http://theory.stanford.edu/~tim/ Tim Roughgarden].
+
+== Publications
+(asterisk indicates joint or alphabetical authorship)
+- [https://arxiv.org/abs/2107.04649 Accuracy on the Line: on the Strong Correlation Between Out-of-Distribution and In-Distribution Generalization].\n
+  *John Miller*, Rohan Taori, Aditi Raghunathan, Shiori Sagawa, Pang Wei Koh, Vaishaal Shankar, Percy Liang, Yair Carmon, Ludwig Schmidt.\n
+  /International Conference on Machine Learning (ICML)/, 2021.\n
+  ([https://share.streamlit.io/millerjohnp/linearfits_app/main/app.py Interactive plotting])
+- [https://arxiv.org/abs/2108.04884 Retiring Adult: New Datasets for Fair Machine Learning].\n
+  Frances Ding\*, Moritz Hardt\*, *John Miller*\*, Ludwig Schmidt\*.\n
+  /Advances in Neural Information Processing Systems (NeurIPS)/, 2021.\n
+  ([https://github.com/zykls/folktables New datasets])
+- [https://arxiv.org/abs/2102.08570 Outside the Echo Chamber: Optimizing the Performative Risk].\n
+  *John Miller*\*, Juan C. Perdomo\*, Tijana Zrnic\*.\n
+  /International Conference on Machine Learning (ICML)/, 2021.
+- [https://arxiv.org/abs/2004.14444 The Effect of Natural Distribution Shift on Question Answering Models].\n
+  *John Miller*, Karl Krauth, Benjamin Recht, Ludwig Schmidt.\n
+  /International Conference on Machine Learning (ICML)/, 2020.\n 
+  ([https://modestyachts.github.io/squadshifts-website/ website])
+- [https://arxiv.org/abs/1910.10362 Strategic Classification is Causal Modeling in Disguise].\n
+  *John Miller*, Smitha Milli, Moritz Hardt.\n
+  /International Conference on Machine Learning (ICML)/, 2020. 
+- [https://arxiv.org/abs/1909.13231 Test-Time Training for Out-of-Distribution Generalization].\n
+  Yu Sun, Xiaolong Wang, Zhuang Liu, *John Miller*, Alexei A. Efros, Moritz Hardt.\n
+  /International Conference on Machine Learning (ICML)/, 2020. 
+- [https://arxiv.org/abs/1905.12580 Model Similarity Mitigates Test Set Overuse].\n
+  Horia Mania, *John Miller*, Ludwig Schmidt, Moritz Hardt, Benjamin Recht.\n
+  /Advances in Neural Information Processing Systems (NeurIPS)/, 2019.
+- [ A Meta-Analysis of Overfitting in Machine Learning].\n
+  Rebecca Roelofs, Sara Fridovich-Keil, *John Miller*, Vaishaal Shankar, Moritz Hardt, Benjamin Recht, Ludwig Schmidt.\n
+  /Advances in Neural Information Processing Systems (NeurIPS)/, 2019.
+- [https://arxiv.org/abs/1808.08460 The Social Cost of Strategic Classification].\n
+  Smitha Milli, *John Miller*, Anca Dragan, Moritz Hardt.\n
+  /ACM FAT*/, 2019.
+- [https://arxiv.org/abs/1805.10369 Stable Recurrent Models].\n
+  *John Miller* and Moritz Hardt.\n
+  /International Conference on Learning Representations (ICLR)/, 2019. ([http://www.offconvex.org/2018/07/27/approximating-recurrent/ blog])
+- [https://arxiv.org/abs/1710.07654 Deep Voice 3: 2000-Speaker Neural Text-to-Speech].\n
+  Wei Ping, Kainan Peng, Andrew Gibiansky, Sercan Arik, Ajay Kannan, Sharan Narang, Jonathan Raiman, *John Miller*.\n
+  /International Conference on Learning Representations (ICLR)/, 2018.
+- [https://arxiv.org/abs/1705.08947 Deep Voice 2: Multi-Speaker Neural Text-to-Speech].\n
+    Sercan Arik\*, Gregory Diamos\*, Andrew Gibiansky\*, *John Miller*\*, Kainan Peng\*, Wei Ping\*, Jonathan Raiman\*, and Yanqi Zhou\*.\n
+    /Advances in Neural Information Processing Systems (NeurIPS)/, 2017.
+- [https://arxiv.org/pdf/1709.02828.pdf Globally Normalized Reader].\n
+  Jonathan Raiman and *John Miller*.\n
+  /Empirical Methods in Natural Language Processing (EMNLP)/, 2017. 
+- [https://arxiv.org/abs/1702.07825 Deep Voice: Real-time Neural Text-to-Speech].\n
+  Sercan Arik\*, Mike Chrzanowski\*, Adam Coates\*, Gregory Diamos\*, Andrew
+  Gibiansky\*, Yongguo Kang\*, Xian Li\*, *John Miller*\*, Andrew Ng\*, Jonathan Raiman\*, Shubho Sengupta\*, and Mohammad Shoeybi\*.\n
+  /International Conference on Machine Learning (ICML)/, 2017.
+- [https://arxiv.org/abs/1506.01094 Traversing Knowledge Graphs in Vector Space].\n
+  Kelvin Guu, *John Miller*, and Percy Liang.\n
+  /Empirical Methods in Natural Language Processing (EMNLP)/, 2015. *\Best paper honorable mention*\. ([https://github.com/millerjohnp/traversing_knowledge_graphs code])
+
+== Software
+- Before graduate school, I wrote [https://github.com/cvxgrp/CVXcanon CVXCanon], a package for canonicalization of convex programs that's used in [http://www.cvxpy.org/en/latest/ CVXPY] and [https://cvxr.rbind.io CVXR].
+- I maintain [https://github.com/zykls/folktables Folktables], a Python package that provides access to datasets derived from US Census data.
+- I was also the main contributor to [https://github.com/zykls/whynot WhyNot], a Python package that provides an experimental sandbox for causal inference and decision making in dynamic environments.
